@@ -5,7 +5,7 @@ import openai
 
 os.environ['OPENAI_API_KEY'] = 'sdsd'
 def testOpenAIKey(openaiapikey):
-    openai.api_key = openaiapikey #'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'
+    openai.api_key = openaiapikey #'sk-YjNP6mLwJjHteurGiWvlXXXXXXXXXXXXXXXXXXXXXXXXX'
     prompt = "What is the calculated value for 6 * 12"
     model = "text-davinci-003"
     try: 
